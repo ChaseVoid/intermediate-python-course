@@ -1,6 +1,6 @@
 import random
 
-def primary():
+def main():
   print('You rolled a die')
 
   dice_rolls = int(input('How many dice would you like to roll? '))
@@ -18,4 +18,4 @@ def primary():
   print(f'You have rolled a total of {dice_sum}')
 
 if __name__== "__main__":
-  primary()
+  main()
